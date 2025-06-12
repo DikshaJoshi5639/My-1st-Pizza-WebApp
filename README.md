@@ -1,36 +1,32 @@
-## React
+# 🍕 My 1st Pizza WebApp
 
-This is a simple React application. This application serves as a basic template for a react applications.  
-This project is bootstrapped with [Vite](https://vitejs.dev/guide/).
+Welcome to **My 1st Pizza WebApp**, a deliciously crafted frontend project built to simulate a modern pizza ordering experience. This app is designed for practicing responsive UI, interactive elements, and web development best practices.
 
-## How to run
+---
 
-1. Before running the application, make sure all dependencies are installed. To install dependencies, run following command in terminal:
-   ```sh
-   npm install
-   ```
+## 🚀 Features
 
-2. Once dependencies are installed, run the following command to start the application:
-   ```sh
-   npm run dev
-   ```
+- 🧾 Menu Display with pizzas, prices, and ingredients
+- 🛒 Interactive Order Cart
+- 👤 User Info and Order Summary
+- ⚡️ Fast and lightweight frontend
+- ✨ Clean CSS styling (no frameworks used)
 
-3. Refresh the URL in simple browser to see the output. As shown below 
-   ![](https://static.onecompiler.com/images/posts/3zzkbysj7/studio-react-vite-reload.png)
+---
 
+## 🛠️ Tech Stack
 
-## FAQs & Debugging
+- **HTML5**
+- **CSS3**
+- **JavaScript**
+- **React** 
+- **Git & GitHub** for version control
 
- ### 1. I do not see browser in my workspace
- Studio will automatically open the app in a new browser tab. If not, you can use the following steps to open the simple browser 
+---
 
-1. From VS Code command pallette(`Ctrl/Cmd + Shift + P`), run **Studio Manager: SimpleBrowser Default URL** command. This will open the app in a new browser tab.
+## 🧑‍🍳 How to Run the App
 
-2. Your app runs on hosted env which can be accessed using host id, port provided in file **.vsocde/.studio/studio-env.json**. Use values to create the URL as follows:
-   `https://<STUDIO_HOST_ID>-3000.ocws.app`
+1. Clone this repository:
 
- ### 2. Getting `vite: not found` error
- This means node_modules are missing in your workspace, please refer the 'How to run' section and make sure you have followed the steps in sequence
-
- ### 3. Can I use create-react-app instead Vite?
- Yes, you can use create-react-app instead Vite, the default workspace is loaded with Vite setup, you can remove the Vite dependencies, add create-react-app dependencies and update the scripts to start using create-react-app.
+```bash
+git clone https://github.com/DikshaJoshi5639/My-1st-Pizza-WebApp.git

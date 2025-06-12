@@ -1,0 +1,123 @@
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+/* General container for split layout */
+.login-background {
+  display: flex;
+  height: 100vh;
+}
+
+/* Left half: Pizza Image */
+.left-image {
+  flex: 1;
+  background-image: url('https://images.unsplash.com/photo-1601925262716-dc3e2de8c12e?auto=format&fit=crop&w=1600&q=80');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Right half: Login box */
+.right-login {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.site-title {
+  font-size: 36px;
+  color: #e74c3c;
+  margin-bottom: 20px;
+}
+
+.login-box {
+  background-color: #f9f9f9;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.login-box input {
+  width: 250px;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 10px;
+  background-color: #e74c3c;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.login-box button:hover {
+  background-color: #c0392b;
+}
+
+/* Pizza Menu UI (after login) */
+.app-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.menu-box {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.pizza-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pizza-card {
+  width: 200px;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+
+.pizza-card img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.pizza-card button {
+  margin-top: 10px;
+  width: 100%;
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.pizza-card button:hover {
+  background-color: #1e8449;
+}
+
+.cart-box {
+  margin-top: 30px;
+  text-align: left;
+  background-color: #f3f3f3;
+  padding: 20px;
+  border-radius: 10px;
+}
